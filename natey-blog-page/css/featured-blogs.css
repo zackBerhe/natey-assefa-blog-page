@@ -1,4 +1,87 @@
 .featured-blogs{
-    height: 140vh;
-    background-color: thistle;
+    height: 180vh;
+    padding-top: 5rem;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-dot-featured{
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    left: 56%;
+    z-index: -5;
+}
+
+.design-dot-featured img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+
+.flex-bottom{
+    margin-top: 1.5rem;
+}
+
+.blog-image{
+    height: 50vh;
+    width: 40%;
+}
+
+.blog-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.blog-detail{
+    width: 45%;
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-detail p{
+    font-weight: 200;
+}
+.blog-detail h4{
+    font-weight: 400;
+}
+.blog-detail small{
+    font-weight: 100;
+    font-size: 10px;
+}
+.blog-detail button{
+    padding: 5px 20px 5px 20px;
+    background-color: #505050;
+    color: white;
+    border: none;
+    width: 8rem;
+}
+
+.button-blogs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-blogs button{
+    padding: 5px 20px 5px 20px;
+    background-color: transparent;
+    color: #81CAFF;
+    border: 2px solid #81CAFF;
+    width: 16rem;
+    margin-top: 8rem;
 }
